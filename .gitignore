@@ -4,3 +4,4 @@
 vendor
 dnscache
 *.lock
+dnscache-client
