@@ -4,10 +4,10 @@ go:
     - 1.6
 
 install:
-    - go get github.com/tools/godep
+    - go get -u -v github.com/tools/godep
+    - go get -u -v -d github.com/netroby/dnscache-client
 
 script:
-    - go get -u -v -d ...
     - godep restore
     - godep go build
     - ls -l
