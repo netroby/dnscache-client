@@ -1,0 +1,15 @@
+{
+	"ImportPath": "github.com/netroby/dnscache-client",
+	"GoVersion": "go1.6",
+	"GodepVersion": "v60",
+	"Deps": [
+		{
+			"ImportPath": "github.com/golang/groupcache/lru",
+			"Rev": "4eab30f13db9d8b25c752e99d1583628ac2fa422"
+		},
+		{
+			"ImportPath": "github.com/miekg/dns",
+			"Rev": "7e024ce8ce18b21b475ac6baf8fa3c42536bf2fa"
+		}
+	]
+}

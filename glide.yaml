@@ -1,8 +1,0 @@
-package: github.com/netroby/dnscache
-import:
-- package: github.com/golang/groupcache
-  version: 604ed5785183e59ae2789449d89e73f3a2a77987
-  subpackages:
-  - lru
-- package: github.com/miekg/dns
-  version: 497abb0c48d4a8d3450ab2614815dbfcaa715bb8

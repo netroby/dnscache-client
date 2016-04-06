@@ -4,10 +4,10 @@ go:
     - 1.5
 
 install:
-    - export GO15VENDOREXPERIMENT=1
-    - go get github.com/masterminds/glide
+    - go get github.com/tools/godep
 
 script:
-    - glide install
-    - go build -v
+    - go get -u -v -d ...
+    - godep restore
+    - godep go build
     - ls -l
